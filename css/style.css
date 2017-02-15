@@ -27,7 +27,7 @@ body {
     list-style-type: none;
 }
 
-#middle-wrapper {
+#middle-wrapper-width {
     display: flex;
 }
 
@@ -40,11 +40,12 @@ body {
 }
 #nav > ul > button {
   text-align: center;
-    padding: 0;
+    padding: 15px 32px;
     margin:0;
     transform: translateY(50%);
     color:#fff;
     background-color: #ffb52b;
+    min-width: 120px;
     }
 .menu{
   display:flex;
@@ -133,7 +134,8 @@ footer > h1 {
     text-align: center;
 }
 #aside-right{
-       margin: 0 50px 0 8px;  
+       margin: 0 50px 0 8px;
+    width: 100% 
 }
 #aside-right h3 {
     text-align: center; 
@@ -146,6 +148,7 @@ footer > h1 {
     padding-bottom: 15px;
     width: 100%;
     border-bottom: 1px black solid
+    
  }
 
 #latest-work >li:before {
